@@ -9,7 +9,7 @@ export const fetchImages = (searchQuery, currentPage, perPage) => {
       key: API_KEY,
       q: searchQuery,
       image_type: 'photo',
-      orientaiton: 'horizontal',
+      orientation: 'horizontal',
       safesearch: 'true',
       page: currentPage,
       per_page: perPage,
